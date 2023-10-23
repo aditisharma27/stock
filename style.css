@@ -1,0 +1,52 @@
+body{
+    
+    min-height: 100vh;
+    width: 100%;
+    background: whitesmoke;
+}
+h3{
+    color: aliceblue;
+}
+.container{
+    background: #28c17e;
+    text-align: center;
+    
+}
+.container h1{
+    font-weight: 600;
+    padding: 1rem;
+    color: #fff;
+}
+.market{
+    background: #252744;
+    text-align: start;
+    display: flex;
+    padding: 1rem;
+
+}
+.left,.right{
+    flex-basis: 50%;
+    padding: 10px;
+    margin: 30px;
+}
+.bottomright{
+    
+    height: 80vh;
+    width: 100%;
+    margin: 0px;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+.bottomright h3{
+    font-weight: 600;
+   justify-content: center;
+   margin-right: 600px;
+    color: #fff;
+}
+
+footer{
+    background: #252744;
+    padding: 0.5rem 0;
+    text-align: center;
+    color: aliceblue;
+}
